@@ -1,0 +1,1 @@
+cmd_/home/tarena/workdir/project/gprs_security/drivers/ds18b20/built-in.o :=  rm -f /home/tarena/workdir/project/gprs_security/drivers/ds18b20/built-in.o; arm-linux-ar rcs /home/tarena/workdir/project/gprs_security/drivers/ds18b20/built-in.o
