@@ -1,1 +1,26 @@
-nolan test 
+
+##################20190505##############################
+nolan test
+
+#############配置VIM IDE 界面######################
+
+https://github.com/ma6174/vim-deprecated
+
+
+
+最简单的一个指令：
+wget -qO- https://raw.github.com/ma6174/vim/master/setup.sh | sh -x
+
+
+
+等待即可
+
+#################配置ubuntu界面############
+
+https://blog.csdn.net/constantin_/article/details/79306385
+
+###################code####################
+
+
+
+ 
