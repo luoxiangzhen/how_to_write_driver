@@ -21,6 +21,32 @@ https://blog.csdn.net/constantin_/article/details/79306385
 
 ###################code####################
 
-
+###########################Git添加公钥到github后无权限(Permission denied)推送和抓取的解决方案###############################
+#
+#
+#
+#本地项目分支关联到github分支后，无论是执行git push 或者 git pull 都提示 permission denied（即没有权限），提示信息如下：
+#$ git pull
+#sign_and_send_pubkey: signing failed: agent refused operation
+#Permission denied (publickey).
+#fatal: 无法读取远程仓库。
+#
+#请确认您有正确的访问权限并且仓库存在。
+#
+#解决方法：
+#
+#检查github是否存在本机的ssh key ，如果不存在则添加本机公钥到github
+#尝试是否可以 git pull ，如果还是提示没有权限，执行第三步
+#打开命令行，执行下列命令
+#
+#$ eval "$(ssh-agent -s)"
+#$ ssh-add
+#
+#问题解决！！！
+#
+#作者：Conca_
+#链接：https://www.jianshu.com/p/05cdd2bebb12
+#来源：简书
+#简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
 
  
